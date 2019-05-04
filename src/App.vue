@@ -18,16 +18,19 @@
     <v-content>
       <Container/>
     </v-content>
+    <tfxi :name="'farhoud'"></tfxi>
   </v-app>
 </template>
 
 <script>
 import Container from './components/Container'
+import tfxi from './components/tfxi'
 
 export default {
   name: 'App',
   components: {
-      Container
+      Container,
+      tfxi
   },
   data () {
     return {
